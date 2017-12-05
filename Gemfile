@@ -50,6 +50,9 @@ gem 'paperclip', '~> 5.0.0'
 # -- User Accounts --
 gem 'devise'
 
+# -- Secrets --
+gem 'figaro'
+
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
